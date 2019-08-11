@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user invokes chrome browser",
+            "match": {
+              "location": "Fieldvalidation.user_invokes_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user navigates to website from chrome browser",
+            "match": {
+              "location": "Fieldvalidation.user_navigates_to_website_from_chrome_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is able to see home page having OpenWeather logo.",
+            "match": {
+              "location": "Fieldvalidation.user_is_able_to_see_home_page_having_OpenWeather_logo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Registration page",
+        "description": "",
+        "id": "field-validation;registration-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User is on home landing page",
+            "match": {
+              "location": "Fieldvalidation.user_is_on_home_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User clicks on Sign up button",
+            "match": {
+              "location": "Fieldvalidation.user_clicks_on_Sign_up_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user is navigated to registration page",
+            "match": {
+              "location": "Fieldvalidation.user_is_navigated_to_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Field validation",
+    "description": "",
+    "id": "field-validation",
+    "keyword": "Feature",
+    "uri": "fieldvalidation.feature"
+  }
+]

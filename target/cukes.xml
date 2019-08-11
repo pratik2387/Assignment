@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Field validation" name="Registration page" time="0">
+<system-out><![CDATA[Given user invokes chrome browser...........................................skipped
+When user navigates to website from chrome browser..........................skipped
+Then user is able to see home page having OpenWeather logo..................skipped
+Given User is on home landing page..........................................skipped
+When User clicks on Sign up button..........................................skipped
+Then user is navigated to registration page.................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
